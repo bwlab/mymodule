@@ -1,0 +1,27 @@
+{
+  "name": "mymodule/mymodule",
+  "description": "test controller module",
+  "homepage": "https://www.bwlab.it",
+  "license": "AFL-3.0",
+  "type": "prestashop-module",
+  "authors": [
+    {
+      "name": "bwlab",
+      "email": "support@bwlab.it"
+    }
+  ],
+  "minimum-stability": "stable",
+  "config": {
+    "preferred-install": "dist",
+    "prepend-autoloader": false
+  },
+  "autoload": {
+    "psr-4": {
+      "MyModule\\": "src/"
+    },
+    "config": {
+      "prepend-autoloader": false
+    }
+  }
+
+}

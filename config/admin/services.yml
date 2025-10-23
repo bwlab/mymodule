@@ -1,0 +1,8 @@
+imports: ~
+services:
+  MyModule\Controller\ExampleController:
+    class: MyModule\Controller\ExampleController
+    calls:
+      - [setContainer,['@service_container']]
+    tags:
+      - { name: controller.service_arguments }

@@ -1,0 +1,4 @@
+admin_mymodule_configuration:
+  path: '/mymodule/test-controller'
+  methods: [GET,POST]
+  controller: MyModule\Controller\ExampleController::yourAction
